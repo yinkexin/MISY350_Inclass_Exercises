@@ -3,18 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Jquery Exercise</title>
+    <style media="screen">
+      .active {
+        
+      }
+    </style>
   </head>
   <body>
     <a href="http://www.facebook.com">website1</a>
     <a id="google" href="http://www.google.com">website2</a>
     <a class="my-link" href="http://www.linkedin.com">website3</a>
     <a class="my-link" href="http://www.linkedin.com">website4</a>
-  <script type="text/javascript">
-    document.getElementById('google').innerHTML = "Google";
-    let links = document.getElementsByClassName('my-link');
-    links[0].innerHTML = 'Twitter' ;
-    links[0].href = "http://www.twitter.com";
-    links[1].innerHTML = 'TBD';
+    <div class="main-text">
+      <h1>HTML and CSS</h1>
+      <button type="button" class="button-1">Recent Projects</button>
+      <ul class = "list-1">
+        <li>HTML for Kexin</li>
+        <li>It is cold outside</li>
+      </ul>
+      <h1>Java Query</h1>
+      <button type="button" class="button-2">Recent Projects</button>
+      <ul class ="list-2">
+        <li>HTML for Disen</li>
+        <li>It is hot outside</li>
+      </ul>
+    </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="jquery-basics.js">
+
   </script>
   </body>
 </html>
