@@ -7,6 +7,7 @@ function main() {
   links[0].href = "http://www.twitter.com";
   links[1].innerHTML = 'TBD';
   links[1].href = "#";
+  links[1].style.color = 'red';
 
   //hide and show main text
   $('.main-text').hide();
@@ -19,6 +20,7 @@ function main() {
   //show list by click
   $('.button-1').click(function(){
     $('.list-1').fadeIn(5000);
+    $('.list-1').css('color','red');
   })
   $('.button-2').click(function(){
     $('.list-2').slideToggle();
